@@ -1,0 +1,126 @@
+<SuspensionSetVariants>
+	<SuspensionSet
+		BrokenWheelDamageMultiplier="2.0"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="500"
+		Name="s_mk38_ht_level_1"
+	>
+		<Suspension
+			Damping="0.3"
+			Height="0.45"
+			Strength="0.015"
+			WheelType="front" 
+			BrokenSuspensionMax="0.025" 
+			SuspensionMin="-0.385" 
+			SuspensionMax="-0.25"
+		/>
+		
+		<Suspension
+			Damping="0.35"
+			Height="0.5" 
+			Strength="0.021" 
+			WheelType="rear" 
+			BrokenSuspensionMax="0.025" 
+			SuspensionMin="-0.475"
+			SuspensionMax="-0.2"			
+		/>
+		
+		<GameData
+			Price="2000"
+			UnlockByExploration="false"
+			AddonUnlockByObjective="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_SUSPENSION_MK38_DESC_LEVEL_1"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_SUSPENSION_MK38_NAME_LEVEL_1"
+			/>
+		</GameData>
+	</SuspensionSet>
+	
+	<SuspensionSet
+		BrokenWheelDamageMultiplier="2.0"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="500"
+		Name="s_mk38_ht_level_2"
+	>
+		<Suspension
+			Damping="0.22"
+			Height="0.65"
+			Strength="0.008"
+			WheelType="front"
+			BrokenSuspensionMax="-0.025"
+			SuspensionMin="-0.55"
+			SuspensionMax="0.5"
+		/>
+		
+		<Suspension
+			Damping="0.35"
+			Height="0.5" 
+			Strength="0.021" 
+			WheelType="rear" 
+			BrokenSuspensionMax="0.025" 
+			SuspensionMin="-0.475"
+			SuspensionMax="-0.275"			
+		/>
+		
+		<GameData
+			Price="3500"
+			UnlockByExploration="false"
+			AddonUnlockByObjective="false"
+			UnlockByRank="1"
+			>
+			
+			<UiDesc
+				UiDesc="UI_SUSPENSION_MK38_DESC_LEVEL_2"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_SUSPENSION_MK38_NAME_LEVEL_2"
+			/>
+		</GameData>
+	</SuspensionSet>
+	
+	<SuspensionSet
+		BrokenWheelDamageMultiplier="2.0"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="500"
+		Name="s_mk38_ht_level_3"
+	>
+		<Suspension
+			Damping="0.22"
+			Height="0.65"
+			Strength="0.008"
+			WheelType="front"
+			BrokenSuspensionMax="-0.025"
+			SuspensionMin="-0.55"
+			SuspensionMax="0.5"
+		/>
+		
+		<Suspension
+			Damping="0.22"
+			Height="0.55" 
+			Strength="0.008" 
+			WheelType="rear" 
+			BrokenSuspensionMax="-0.025" 
+			SuspensionMin="-0.65" 
+			SuspensionMax="0.5"
+		/>
+		
+		<GameData
+			Price="5000"
+			UnlockByExploration="false"
+			AddonUnlockByObjective="false"
+			UnlockByRank="1"
+			>
+			
+			<UiDesc
+				UiDesc="UI_SUSPENSION_MK38_DESC_LEVEL_3"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_SUSPENSION_MK38_NAME_LEVEL_3"
+			/>
+		</GameData>
+	</SuspensionSet>
+</SuspensionSetVariants>

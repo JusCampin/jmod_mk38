@@ -1,0 +1,31 @@
+<TruckAddon>
+	<PhysicsModel Mesh="trucks/addons/invisible_mesh" />
+	
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0.01" Type="Suspension" />
+			<Multiplier Multiplier="0.01" Type="Wheels" />
+			<Multiplier Multiplier="0.01" Type="Engine" />
+			<Multiplier Multiplier="0.01" Type="Gearbox" />
+			<Multiplier Multiplier="0.01" Type="FuelTank" />		
+		</Damage>
+	</TruckData>
+
+	<GameData
+		CameraPreset="default"
+		Category="miscellenious"
+		Price="2000"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_ADDON_MK38_DESC_DAMAGE"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_ADDON_MK38_NAME_DAMAGE"
+		/>
+		
+		<InstallSocket Type="jmodMK38_DamageReduction" />
+		
+	</GameData>
+</TruckAddon>

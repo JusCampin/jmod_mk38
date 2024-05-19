@@ -1,0 +1,29 @@
+<_templates Include="trucks">
+</_templates>
+<TruckAddon>
+<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0.01" Type="Suspension" />
+		</Damage>
+	</TruckData>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_wings_default">
+		<Body ImpactType="Truck" Mass="20" ModelFrame="BoneWingsDefault_cdt">
+			<Constraint Type="Rigid" />
+		</Body>
+	</PhysicsModel>
+	<GameData
+		CameraPreset="default"
+		Category="miscellenious"
+		Price="500"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_WING_MK38_DESC_0"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_ANK_MK38_HT_WINGS_DEFAULT_NAME"
+		/>
+		<InstallSocket Type="jmodMk38HTWings" />
+	</GameData>
+</TruckAddon>

@@ -1,0 +1,49 @@
+<_templates Include="trucks">
+	<Body>
+		<Collar
+			AngularDamping="1"
+			Collisions="None"
+			ImpactType="Truck"
+			Mass="3"
+		>
+			<Constraint AxisLocal="(0; 0; 1)" Type="Hinge" MaxLimit="120" />
+		</Collar>
+	</Body>
+</_templates>
+<TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0.01" Type="Engine" />
+		</Damage>
+	</TruckData>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_front_bumper_01">
+		<Body ImpactType="Truck" Mass="20" ModelFrame="BoneFrontBumper01_cdt">
+			<Constraint Type="Rigid" />
+			<Body _template="Collar" ModelFrame="BoneFrontBumper01CollarR1_cdt">
+				<Constraint MinLimit="-7" />
+			</Body>
+			<Body _template="Collar" ModelFrame="BoneFrontBumper01CollarR2_cdt">
+				<Constraint MinLimit="0" />
+			</Body>
+			<Body _template="Collar" ModelFrame="BoneFrontBumper01CollarL1_cdt">
+				<Constraint MinLimit="-16" />
+			</Body>
+		</Body>
+	</PhysicsModel>
+	<GameData
+		CameraPreset="default"
+		Category="fender_front"
+		Price="500"
+		UnlockByExploration="false"
+		AddonUnlockByObjective="false"
+		UnlockByRank="1"	
+	>
+		<UiDesc
+			UiDesc="UI_BUMPER_F_MK38_DESC_1"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_ANK_MK38_FRONT_BUMPER_1_NAME"
+		/>
+		<InstallSocket Type="jmodMk38HTBumper" />
+	</GameData>
+</TruckAddon>

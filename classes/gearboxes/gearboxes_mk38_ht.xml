@@ -1,0 +1,120 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.1"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="500"
+		DamagedConsumptionModifier="1.4"
+		FuelConsumption="1.8"
+		IdleFuelModifier="0.2"
+		Name="g_mk38_level_1"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="20.0"
+	>
+		<ReverseGear AngVel="2.0" FuelModifier="0.9" />
+		<HighGear AngVel="14.0" FuelModifier="0.9" />
+		<Gear AngVel="1.5" FuelModifier="1.7" />
+		<Gear AngVel="2.5" FuelModifier="1.5" />
+		<Gear AngVel="4.0" FuelModifier="1.3" />
+		<Gear AngVel="6.5" FuelModifier="1.3" />		
+		<Gear AngVel="8.5" FuelModifier="1.0" />
+		<GameData
+			Price="2000"
+			UnlockByExploration="false"
+			AddonUnlockByObjective="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams 
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsLowerMinusGearExists="true"
+			/>
+			<UiDesc
+				UiDesc="UI_GEARBOX_MK38_DESC_LEVEL_1"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_MK38_NAME_LEVEL_1"
+			/>
+		</GameData>
+	</Gearbox>
+	
+	<Gearbox
+		AWDConsumptionModifier="1.1"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="500"
+		DamagedConsumptionModifier="1.4"
+		FuelConsumption="1.3"
+		IdleFuelModifier="0.2"
+		Name="g_mk38_level_2"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="20.0"
+	>
+		<ReverseGear AngVel="2.0" FuelModifier="0.9" />
+		<HighGear AngVel="19.0" FuelModifier="0.9" />
+		<Gear AngVel="2.0" FuelModifier="1.4" />
+		<Gear AngVel="4.0" FuelModifier="1.4" />		
+		<Gear AngVel="6.0" FuelModifier="1.4" />
+		<Gear AngVel="9.0" FuelModifier="1.4" />		
+		<Gear AngVel="12.5" FuelModifier="1.3" />
+		<Gear AngVel="14.5" FuelModifier="1.2" />
+		<GameData
+			Price="3500"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsLowerMinusGearExists="true"
+			/>
+			<UiDesc
+				UiDesc="UI_GEARBOX_MK38_DESC_LEVEL_2"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_MK38_NAME_LEVEL_2"
+			/>
+		</GameData>
+	</Gearbox>
+	
+	<Gearbox
+		AWDConsumptionModifier="1.1"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="500"
+		DamagedConsumptionModifier="1.4"
+		FuelConsumption="1.2"
+		IdleFuelModifier="0.2"
+		Name="g_mk38_level_3"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="20.0"
+	>
+		<ReverseGear AngVel="2.0" FuelModifier="0.9" />
+		<HighGear AngVel="20.0" FuelModifier="0.9" />
+		<Gear AngVel="2.5" FuelModifier="1.4" />		
+		<Gear AngVel="6.5" FuelModifier="1.4" />
+		<Gear AngVel="10.5" FuelModifier="1.3" />
+		<Gear AngVel="14.0" FuelModifier="1.2" />
+		<Gear AngVel="18.0" FuelModifier="1.0" />
+		<Gear AngVel="22.0" FuelModifier="1.0" />		
+		<Gear AngVel="26.0" FuelModifier="0.9" />
+		<Gear AngVel="28.0" FuelModifier="0.9" />
+		<GameData
+			Price="5000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsLowerMinusGearExists="true"
+			/>
+			<UiDesc
+				UiDesc="UI_GEARBOX_MK38_DESC_LEVEL_3"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_MK38_NAME_LEVEL_3"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

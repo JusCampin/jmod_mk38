@@ -1,0 +1,25 @@
+<_templates Include="trucks" />
+<TruckAddon>
+	<Snorkel Origin="(0.815; 3.053; 1.151)" />
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_snorkel_01">
+		<Body ImpactType="Truck" Mass="15" ModelFrame="BoneSnorkel01_cdt">
+			<Constraint Type="Rigid" />
+		</Body>
+	</PhysicsModel>
+	<GameData
+		CameraPreset="side_l"
+		Category="snorkel"
+		Price="1500"
+		UnlockByExploration="false"
+		AddonUnlockByObjective="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_ANK_MK38_HT_SNORKEL_01_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_ANK_MK38_HT_SNORKEL_01_NAME"
+		/>
+		<InstallSocket Type="jmodMk38Snorkel" />
+	</GameData>
+</TruckAddon>

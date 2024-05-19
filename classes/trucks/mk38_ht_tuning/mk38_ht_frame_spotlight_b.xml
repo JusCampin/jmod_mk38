@@ -1,0 +1,59 @@
+<_templates Include="trucks" />
+<TruckAddon>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_frame_spotlight_b">
+		<Body
+			Collisions="None"
+			ImpactType="Truck"
+			Mass="1"
+			ModelFrame="BoneFrameSpotlightB_cdt"
+		>
+			<Constraint Type="Fixed" />
+		</Body>
+	</PhysicsModel>
+	
+	<ModelAttachments _noinherit="true">
+		<MainHeadLight>
+			<Model _template="HeadLightRay" Org="(1.836; 3.191; 0)" />
+			<Model _template="HeadLightRay" Org="(1.836; 3.191; -0.64)" />
+			<Model _template="HeadLightRay" Org="(1.836; 3.191; 0.64)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; -0.77)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; -0.705)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; -0.64)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; -0.576)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; 0.77)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; 0.705)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; 0.64)" />
+			<Flare _template="HeadLight" Color="g(235; 230; 220) x 1.3" Size=".1" Pos="(1.836; 3.193; 0.576)" />
+			
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; 0)" />
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; -0.111)" />
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; -0.221)" />
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; -0.332)" />
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; 0.111)" />
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; 0.221)" />
+			<Flare _template="HeadLight" AspectRatio="1.5" Color="g(235; 230; 220) x 1.3" Size=".15" Pos="(1.784; 3.224; 0.332)" />
+			
+			<Flare _template="BlueStreak" Size="1" Pos="(1.812; 3.131; 0)" />
+		</MainHeadLight>
+		
+	</ModelAttachments>
+	
+	<MainHeadLight _template="Multiply2" ExtraColor="g(255; 238; 200)" />
+	<GameData
+		CameraPreset="supplies_default"
+		Category="miscellenious"
+		IsCustomizable="false"
+		Price="500"
+		UnlockByExploration="false"
+		UnlockByRank="1" IsConsumable="true"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_OUTERFRAME_SPOTLIGHT_B_DESC"
+			UiIcon30x30="toolHeadLamp30"
+			UiIcon60x60="toolHeadLamp60"
+			UiName="UI_TUNING_OUTERFRAME_SPOTLIGHT_B_NAME"
+		/>
+		<InstallSocket Type="jmodMk38FrameSpotlight" />
+		<RequiredAddon Types="mk38_ht_outerframe_01" />
+	</GameData>
+</TruckAddon>

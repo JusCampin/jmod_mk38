@@ -1,0 +1,23 @@
+<TruckAddon>
+	<PhysicsModel Mesh="trucks/addons/invisible_mesh" />	
+
+	<GameData
+		CameraPreset="default"
+		Category="miscellenious"
+		Price="0"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_ADDON_MK38_DESC_SIDEBOARD"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_ADDON_MK38_NAME_SIDEBOARD"
+		/>
+		
+		<InstallSocket Type="jmodMK38_Sideboard" />
+		
+		<SideboardSlots Quantity="8" />
+		
+	</GameData>
+</TruckAddon>

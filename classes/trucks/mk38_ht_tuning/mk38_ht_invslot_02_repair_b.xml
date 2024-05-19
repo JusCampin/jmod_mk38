@@ -1,0 +1,37 @@
+<TruckAddon>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_inv_slot_02_repair_right">	
+		<Body Collisions="None" Mass="20" ModelFrame="BoneInvSlot02RepairRight_cdt">
+			<Constraint
+				AxisLocal="(1; 0; 0)"
+				Type="Hinge"
+				MinLimit="-1.0"
+				MaxLimit="1.0"
+			>
+				<Motor Type="Spring" Damping="0" Spring="2" />
+			</Constraint>
+		</Body>
+	</PhysicsModel>
+	
+	<TruckData RepairsCapacity="50" />
+	<RepairsHide>
+		<Mesh Frame="ank_mk38_inv_slot_02_repair_right" HideThreshold="0.0" />
+	</RepairsHide>
+	
+	<GameData
+		CameraPreset="supplies_side_r"
+		Category="miscellenious"
+		Price="200"
+		UnlockByExploration="false"
+		UnlockByRank="1" IsConsumable="true"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_INV_SLOT_REPAIR_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_INV_SLOT_REPAIR_NAME"
+		/>
+		<RequiredAddon Types="mk38_ht_invslot_02" />
+		<InstallSocket Type="jmodMk38InventorySlot02Right" />
+	</GameData>
+</TruckAddon>
+

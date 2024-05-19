@@ -1,0 +1,43 @@
+<TruckAddon>
+	
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_roofrack_slot02_fuel">
+		<Body Collisions="None" Mass="20" ModelFrame="BoneRoofrackSlot02Fuel_cdt">
+			<Constraint
+				Type="Fixed"
+				LinearLimitsX="(-0.020;0.02)"
+				LinearLimitsY="(0;0)"
+				LinearLimitsZ="(0.00;0.014)"
+			>
+				<Motor Type="Spring" Damping="700" Spring="210" />
+			</Constraint>
+		</Body>
+	</PhysicsModel>
+	
+	<TruckData FuelCapacity="15">
+		<LimitedFluid Center="(1.36; 3.197; -0.44)"
+		SizeX="0.352" SizeY="0.179" SizeZ="0.763" Type="Box"
+		ParentFrame="BoneRoofrackSlot01Fuel_cdt" />
+	</TruckData>
+	
+	<FuelHide>
+		<Mesh Frame="ank_mk38_ht_roofrack_slot02_fuel" HideThreshold="0.0" />
+	</FuelHide>
+	
+	<GameData
+		CameraPreset="supplies_roof"
+		Category="top"
+		IsCustomizable="false"
+		Price="200"
+		UnlockByExploration="false"
+		UnlockByRank="1" IsConsumable="true"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_ROOFRACK_FUEL_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_ROOFRACK_FUEL_NAME"
+		/>
+		<RequiredAddon Types="mk38_ht_roofrack_01" />
+		<InstallSocket Type="jmodMk38RoofRackSlot02" />
+	</GameData>
+</TruckAddon>

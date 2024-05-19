@@ -1,0 +1,38 @@
+<TruckAddon>
+	
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_roofrack_slot04_repair">
+		<Body Collisions="None" Mass="20" ModelFrame="BoneRoofrackSlot04Repair_cdt">
+			<Constraint
+				Type="Fixed"
+				LinearLimitsX="(-0.015;0.02)"
+				LinearLimitsY="(0;0)"
+				LinearLimitsZ="(-0.007;0)"
+			>
+				<Motor Type="Spring" Damping="700" Spring="100" />
+			</Constraint>
+		</Body>
+	</PhysicsModel>
+	
+	<TruckData RepairsCapacity="50" />
+	<RepairsHide>
+		<Mesh Frame="ank_mk38_ht_roofrack_slot04_repair" HideThreshold="0.0" />
+	</RepairsHide>
+	
+	<GameData
+		CameraPreset="supplies_roof"
+		Category="top"
+		IsCustomizable="false"
+		Price="200"
+		UnlockByExploration="false"
+		UnlockByRank="1" IsConsumable="true"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_ROOFRACK_REPAIR_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_ROOFRACK_REPAIR_NAME"
+		/>
+		<RequiredAddon Types="mk38_ht_roofrack_01" />
+		<InstallSocket Type="jmodMk38RoofRackSlot04" />
+	</GameData>
+</TruckAddon>

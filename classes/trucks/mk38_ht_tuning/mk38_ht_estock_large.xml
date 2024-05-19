@@ -1,0 +1,26 @@
+<_templates Include="trucks" />
+<TruckAddon>
+	<TruckData
+		RepairsCapacity="5000"
+		WheelRepairsCapacity="10"
+		FuelCapacity="947"
+	/>
+	<PhysicsModel _template="Invisible" />
+	<GameData
+		CameraPreset="default"
+		Category="miscellenious"
+		IsEmergencyReserveAddon="true"
+		Price="3000"
+		UnlockByExploration="false"
+		AddonUnlockByObjective="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_ESTOCK_MK38_DESC_LARGE"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_ESTOCK_MK38_NAME_LARGE"
+		/>
+		<InstallSocket Type="jmodMK38estock" />
+	</GameData>
+</TruckAddon>

@@ -1,0 +1,42 @@
+<_templates Include="trucks" />
+<TruckAddon>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_frame_spotlight_c">
+		<Body
+			Collisions="None"
+			ImpactType="Truck"
+			Mass="1"
+			ModelFrame="BoneFrameSpotlightC_cdt"
+		>
+			<Constraint Type="Fixed" />
+		</Body>
+	</PhysicsModel>
+	<ModelAttachments _noinherit="true">
+		<MainHeadLight>
+			<Model _template="HeadLightRay" Org="(1.749; 3.168; -1.109)" />
+			<Model _template="HeadLightRay" Org="(1.749; 3.168; 1.109)" />
+			<Flare _template="HeadLight" Color="g(255; 230; 210) x 1.5" Size="0.3" Pos="(1.749; 3.168; -1.109)" />
+			<Flare _template="HeadLight" Color="g(255; 230; 210) x 1.5" Size="0.3" Pos="(1.749; 3.168; 1.109)" />
+			<Flare _template="BlueStreak" Size="0.3" Pos="(1.749; 3.168; -1.109)" />
+			<Flare _template="BlueStreak" Size="0.3" Pos="(1.749; 3.168; 1.109)" />
+		</MainHeadLight>
+		
+	</ModelAttachments>
+	<MainHeadLight _template="Multiply2" ExtraColor="g(255; 238; 200)" />
+	<GameData
+		CameraPreset="supplies_default"
+		Category="miscellenious"
+		IsCustomizable="false"
+		Price="500"
+		UnlockByExploration="false"
+		UnlockByRank="1" IsConsumable="true"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_OUTERFRAME_SPOTLIGHT_C_DESC"
+			UiIcon30x30="toolHeadLamp30"
+			UiIcon60x60="toolHeadLamp60"
+			UiName="UI_TUNING_OUTERFRAME_SPOTLIGHT_C_NAME"
+		/>
+		<InstallSocket Type="jmodMk38FrameSpotlight" />
+		<RequiredAddon Types="mk38_ht_outerframe_01" />
+	</GameData>
+</TruckAddon>

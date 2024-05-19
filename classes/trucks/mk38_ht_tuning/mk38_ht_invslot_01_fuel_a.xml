@@ -1,0 +1,41 @@
+<TruckAddon>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_inv_slot_01_left_fuel">	
+		<Body Collisions="None" Mass="20" ModelFrame="BoneInvSlot01FuelLeft_cdt">
+			<Constraint
+				AxisLocal="(1; 0; 0)"
+				Type="Hinge"
+				MinLimit="-1.0"
+				MaxLimit="1.0"
+			>
+				<Motor Type="Spring" Damping="0" Spring="2" />
+			</Constraint>
+		</Body>
+	</PhysicsModel>
+	<TruckData FuelCapacity="15" >
+		<LimitedFluid Center="(2.383; 1.942; -1.064)"
+		SizeX="0.345" SizeY="0.74" SizeZ="0.203" Type="Box"
+		ParentFrame="BoneInvSlot01FuelLeft_cdt" />
+	</TruckData>
+	<FuelHide>
+		<Mesh Frame="ank_mk38_ht_inv_slot_01_left_fuel" HideThreshold="0.0" />
+	</FuelHide>
+	
+	<GameData
+		CameraPreset="supplies_side_l"
+		Category="miscellenious"
+		Price="200"
+		UnlockByExploration="false"
+		UnlockByRank="1" IsConsumable="true"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_INV_SLOT_FUEL_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_INV_SLOT_FUEL_NAME"
+		/>
+		<RequiredAddon Types="mk38_ht_invslot_01" />
+		<InstallSocket Type="jmodMk38InventorySlot01Left" />
+	</GameData>
+</TruckAddon>
+
+

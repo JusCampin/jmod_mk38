@@ -1,0 +1,36 @@
+<_templates Include="trucks" />
+<TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0.01" Type="Engine" />
+			<Multiplier Multiplier="0.01" Type="Gearbox" />
+			<Multiplier Multiplier="0.01" Type="FuelTank" />
+			<Multiplier Multiplier="0.01" Type="Suspension" />
+			
+		</Damage>
+	</TruckData>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks/tuning/ank_mk38_ht_tuning" MeshFrame="ank_mk38_ht_outerframe_01">
+		<Body ImpactType="Truck" Mass="20" ModelFrame="BoneOuterframe01_cdt">
+			<Constraint Type="Rigid" />
+		</Body>
+	</PhysicsModel>
+	<GameData
+		CameraPreset="default"
+		Category="miscellenious"
+		IsCustomizable="true"
+		Price="2000"
+		UnlockByExploration="false"
+		AddonUnlockByObjective="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_OUTERFRAME_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_OUTERFRAME_NAME"
+		/> 
+		<RequiredAddon Types="mk38_ht_front_bumper_01, mk38_ht_front_bumper_02" />
+		<RequiredAddon Types="mk38_ht_wings_01, mk38_ht_wings_02" />
+		<InstallSocket Type="jmodMk38OuterFrame" />
+	</GameData>
+</TruckAddon>

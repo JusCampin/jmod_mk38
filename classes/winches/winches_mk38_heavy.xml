@@ -1,0 +1,89 @@
+<WinchVariants>
+	<Winch
+		Name="w_mk38_level_1"
+		Length="26"
+		StrengthMult="3.5"
+		IsEngineIgnitionRequired="false"
+	>
+		<GameData
+			Price="2000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<WinchParams />
+			
+			<UiDesc
+				UiDesc="UI_WINCH_MK38_DESC_LEVEL_1"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_WINCH_MK38_NAME_LEVEL_1"
+			/>
+		</GameData>
+	</Winch>
+	
+	<Winch
+		Name="w_mk38_level_2"
+		Length="46"
+		StrengthMult="3.5"
+		IsEngineIgnitionRequired="false"
+	>
+		<GameData
+			Price="3000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<WinchParams />
+			
+			<UiDesc
+				UiDesc="UI_WINCH_MK38_DESC_LEVEL_2"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_WINCH_MK38_NAME_LEVEL_2"
+			/>
+		</GameData>
+	</Winch>
+	
+	<Winch
+		Name="w_mk38_level_3"
+		Length="26"
+		StrengthMult="8.5"
+		IsEngineIgnitionRequired="fale"
+	>
+		<GameData
+			Price="5000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<WinchParams />
+			
+			<UiDesc
+				UiDesc="UI_WINCH_MK38_DESC_LEVEL_3"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_WINCH_MK38_NAME_LEVEL_3"
+			/>
+		</GameData>
+	</Winch>
+	
+	<Winch
+		Name="w_mk38_level_4"
+		Length="46"
+		StrengthMult="8.5"
+		IsEngineIgnitionRequired="false"
+	>
+		<GameData
+			Price="6000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<WinchParams />
+			
+			<UiDesc
+				UiDesc="UI_WINCH_MK38_DESC_LEVEL_4"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_WINCH_MK38_NAME_LEVEL_4"
+			/>
+		</GameData>
+	</Winch>
+</WinchVariants>

@@ -1,0 +1,93 @@
+<TruckWheels
+	DamageCapacity="500"
+	Radius="1"
+	Width="0.65"
+>
+	<TruckTires>
+		<TruckTire
+			Mesh="wheels/tire_scout_mudtires1_2"
+			Name="mudtires_extreme_1"
+			RearMassScale="1"
+			Mass="400"
+		>
+			<GameData
+				Price="4000"
+				UnlockByExploration="false"
+				AddonUnlockByObjective="false"
+				UnlockByRank="1"
+			>
+				<UiDesc
+					UiDesc="UI_WHEEL_MK38_DESC_EXTREME_MT_2"
+					UiName="UI_WHEEL_MK38_NAME_EXTREME_MT_2"
+				/>
+			</GameData>
+			
+			<WheelTracks
+				TextureAlpha="tracks/offroad_alpha__s_d.tga"
+				TextureHeight="tracks/offroad_height__s_d.tga"
+			/>
+			
+			<WheelSoftness
+				RadiusOffset="0.025"
+				SoftForceScale="0.20"
+			/>
+			
+			<WheelFriction
+				BodyFriction="6.1"
+				BodyFrictionAsphalt="6.5"
+				SubstanceFriction="6.5"
+				UiName="UI_TIRE_TYPE_OFFROAD_NAME"
+			/>
+			
+			<TiresInflationSystemSettings>
+				<Low
+					OnModelFriction="1.7"
+					BodyFrictionAsphalt="1.6"
+					SubstanceFriction="1.6"
+					FuelConsumptionModifier="1.5"
+					SteeringSpeedModifier="0.7"
+					AdditionalRadiusOffset="0.1"
+					>
+				</Low>
+				
+				<Reduced
+					OnModelFriction="1.5"
+					BodyFrictionAsphalt="1.4"
+					SubstanceFriction="1.4"
+					FuelConsumptionModifier="1.25"
+					SteeringSpeedModifier="0.85"
+					AdditionalRadiusOffset="0.05"
+					>
+				</Reduced>
+			</TiresInflationSystemSettings>
+		</TruckTire>
+	</TruckTires>
+	
+	<TruckRims>
+		<TruckRim
+			Mesh="wheels/rim_scout_mudtires1_2"
+			Mass="500"
+			Name="rim_2"
+		>
+			<GameData>
+				<UiDesc
+					UiDesc="UI_RIM_SCOUT_MUDTIRES_1_2_DESC"
+					UiName="UI_RIM_SCOUT_MUDTIRES_1_2_NAME"
+				/>
+			</GameData>
+		</TruckRim>
+		
+		<TruckRim
+			Mesh="wheels/rim_scout_mudtires1_3"
+			Mass="500"
+			Name="rim_3"
+		>
+			<GameData>
+				<UiDesc
+					UiDesc="UI_RIM_SCOUT_MUDTIRES_1_3_DESC"
+					UiName="UI_RIM_SCOUT_MUDTIRES_1_3_NAME"
+				/>
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>
