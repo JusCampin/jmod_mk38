@@ -47,7 +47,7 @@
 		Name="w_mk38_level_3"
 		Length="26"
 		StrengthMult="8.5"
-		IsEngineIgnitionRequired="fale"
+		IsEngineIgnitionRequired="false"
 	>
 		<GameData
 			Price="5000"
